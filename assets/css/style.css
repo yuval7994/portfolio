@@ -11,12 +11,25 @@ body {
     
 }
 
+.flext-left {
+    float: left; 
+    margin-left: 25px; 
+}
+
+.flex-center {
+    text-align: center; 
+}
+
 header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+header a {
+    text-decoration: none; 
+    color: white; 
+}
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -37,6 +50,11 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    margin-bottom: 35px;
+    border-color: black; 
+    padding-bottom: 20px
+    
+
 }
 
 .hero {
@@ -46,5 +64,56 @@ header nav ul li {
     background-image: url("../images/IMG_2414.jpeg");
     background-size: cover;
     background-position: center;
+
 }
 
+.flex-center p {
+    font-size: 18px; 
+    line-height: 1.2;
+    color: black;
+    width: 50%;
+    margin: 0 auto; 
+    border: 20px; 
+    text-align: center; 
+}
+
+.section-title {
+    font-size: 48px;
+    color: black;
+}
+
+.contact h2 {
+    color: #fce138;
+  }
+
+.contact-info {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+  }
+ 
+.contat div {
+    color: white;
+  }
+  
+.contact p, .contact address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+  }
+
+.contact a {
+    color: #fce138;
+  }
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
