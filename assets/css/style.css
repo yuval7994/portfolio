@@ -77,6 +77,11 @@ header nav ul li {
     text-align: center; 
 }
 
+.flex-item run-buddy {
+    background-image: url("../images/Screen Shot 2022-02-24 at 18.39.28.png");
+
+}
+
 .section-title {
     font-size: 48px;
     color: black;
@@ -92,7 +97,7 @@ header nav ul li {
     flex-wrap: wrap; 
   }
  
-.contat div {
+.contact div {
     color: white;
   }
   
