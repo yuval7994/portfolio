@@ -46,7 +46,6 @@ header nav ul li {
     border-color: black; 
     padding-bottom: 20px
     
-
 }
 
 .hero {
@@ -59,16 +58,12 @@ header nav ul li {
 
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-.intro {
+.flex-center {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    text-align: left;
+    height: auto; 
 }
 
 p {
@@ -79,12 +74,15 @@ p {
     margin: 0 auto; 
     border: 20px; 
     text-align: center; 
+    height: auto; 
 }
 
 .steps {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 210px;
+    text-align: left; 
+    height: auto; 
 }
  
 
@@ -167,6 +165,29 @@ h3 {
     color: blue;
   }
   
+div nav {
+    margin: 7px 300px;
+}
+
+
+div nav ul {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;
+    list-style: none;
+}
+
+div nav ul li {
+    display: inline; 
+    
+}
+
+div nav ul li a {
+    padding: 10px 15px; 
+    font-size: 1.5vw; 
+}
+
 .contact p, .contact address {
     margin: 20px 0;
     line-height: 1.5;
