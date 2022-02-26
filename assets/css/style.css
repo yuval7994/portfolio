@@ -97,7 +97,6 @@ h3 {
 .flex-line-1 {
     display: flex;
     flex-flow: wrap; 
-    
 }
 
 .run-buddy {
@@ -123,7 +122,13 @@ h3 {
     background-color: rgb(173, 208, 231);
    
 }
+.happybday {
+    display: flex; 
+    width: 60%;
+    padding: 20px;
+    background-color: rgb(175, 233, 175);
 
+}
    
 .contact h2 {
     color: #fce138;
