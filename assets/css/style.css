@@ -96,15 +96,15 @@ h3 {
  
 .flex-line-1 {
     display: flex;
-    flex-flow: wrap; 
+    flex-flow: nowrap; 
+    justify-content: center; 
+
 }
 
 .run-buddy {
-    display: flex; 
-    width: 100%;
-    margin-bottom: 20px;
+    width: 1050px;
+    margin: 20px;
     padding: 20px;
-    height: auto;
     background-color: rgb(175, 233, 175);
 }
 
@@ -116,17 +116,40 @@ h3 {
 
    
 .horiseon {
-    display: flex; 
-    width: 300%;
-    padding: 20px;
-    background-color: rgb(173, 208, 231);
-   
-}
-.happybday {
-    display: flex; 
-    width: 60%;
+    width: 550px;
+    height: 422.5px; 
     padding: 20px;
     background-color: rgb(175, 233, 175);
+    margin: 10px 10px 10px 10px 
+   
+}
+
+.happybday {
+    width: 550px;
+    padding: 20px;
+    background-color: rgb(175, 233, 175);
+    margin: 10px 10px 10px 10px 
+
+}
+
+.flex-line-3 {
+    display: flex;
+    flex-flow: nowrap; 
+    justify-content: center;
+}
+
+.cosmo {
+    width: 550px;
+    padding: 20px;
+    background-color: rgb(175, 233, 175);
+    margin: 10px 10px 10px 10px 
+
+}
+.waterfalls {
+    width: 550px;
+    padding: 20px;
+    background-color: rgb(175, 233, 175);
+    margin: 10px 10px 10px 10px 
 
 }
    
