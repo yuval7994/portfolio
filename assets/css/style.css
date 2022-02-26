@@ -154,7 +154,7 @@ h3 {
 }
    
 .contact h2 {
-    color: #fce138;
+    color: #2a607c;
   }
 
 .contact-info {
@@ -164,7 +164,7 @@ h3 {
   }
  
 .contact div {
-    color: white;
+    color: blue;
   }
   
 .contact p, .contact address {
@@ -175,7 +175,7 @@ h3 {
   }
 
 .contact a {
-    color: #fce138;
+    color: #2a607c;
   }
 
 .footer {
