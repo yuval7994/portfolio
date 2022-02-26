@@ -61,8 +61,8 @@ header nav ul li {
 .flex-center {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
-    text-align: left;
+    margin-left: 50px;
+    text-align: right;
     height: auto; 
 }
 
@@ -71,16 +71,17 @@ p {
     line-height: 1.2;
     color: black;
     width: 50%;
-    margin: 0 auto; 
+    margin: 10px 25px 10px; 
     border: 20px; 
-    text-align: center; 
+    text-align: left; 
     height: auto; 
 }
+
 
 .steps {
     width: 75%;
     display: inline-block;
-    margin-left: 210px;
+    margin-left: 10px;
     text-align: left; 
     height: auto; 
 }
