@@ -13,6 +13,7 @@ body {
 
 
 header {
+    margin: 0;
     padding: 20px;
     background-color: #1680b1;
     color: #ffffff;
@@ -55,6 +56,7 @@ header nav ul li {
     background-image: url("../images/IMG_2414.jpeg");
     background-size: cover;
     background-position: center;
+    padding: 20px; 
 
 }
 
@@ -67,6 +69,9 @@ header nav ul li {
     margin-top: 100px;
     font-size: 35px;
     margin-bottom: 20px;
+    padding: 20px; 
+    margin: 0px;
+    
 }
 
 .text {
@@ -78,6 +83,7 @@ header nav ul li {
     border: 20px; 
     text-align: center; 
     height: auto;
+    padding: 20px; 
 }
 
 
@@ -102,7 +108,6 @@ h3 {
     background-color: rgb(175, 233, 175);
     position: relative; 
 }
-
 
 
 img {
@@ -168,7 +173,7 @@ img:hover {
 
   
 div nav {
-    margin: 7px 300px;
+    margin: 7px auto;
 }
 
 
@@ -212,110 +217,144 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    /* this will be applied on any screen smaller than 980px */
-    
-    header {
+  header {
       padding-bottom: 0;
       justify-content: center;
-      position: relative
-    }
-  
-    header h1 {
+  }
+  header h1 {
       width: 100%;
       text-align: center;
-    }
-  
-    header nav ul {
+  }
+  header nav ul {
       margin-top: 20px;
       width: 100%;
       justify-content: center;
-    }
-  
-    header nav ul li a {
+  }
+  header nav ul li a {
       font-size: 20px;
-    }
-  
-    footer h2 {
+  }
+  footer h2, footer div {
       text-align: center;
       width: 100%;
-    }
+  }
+  .flex-center {
+      display: flex;
+      justify-content: center;
+  }
+
+  .flex-line-1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+} 
+
+  .flex-line-2 {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      text-align: center;
+
+  }
+  .flex-line-3 {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .flex-line-4{
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      font-size: 1.7vw;
+      text-align: center;
+  }
+  }
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+  .flex-center {
+      display: flex;
+      justify-content: center;
+
+  }
+.flex-line-1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+} 
+
+  .flex-line-2 {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      text-align: center;
+
+  }
+  .flex-line-3 {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  .flex-line-4 {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        text-align: center;
     
-    .flex-center {
+  }
+
+  }
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+  .flex-center {
+      display: flex;
+      justify-content: center;
+  }
+
+  .flex-line-1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+} 
+
+  .flex-line-2 {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
       text-align: center;
-    }
 
-    .flex-line{
-      width: 80%;
-    }
-    
-    .run-buddy {
-      flex: 0 70%;
-    }
-
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-/* this will be applied on any screen between 768px and 575px */
-
-section {
-  padding: 30px 15px;
-}
-
-.step h3 {
-  flex: 1 100%;
-  text-align: center;
-}
-
-.step-info {
-  flex: 2 100%;
-  text-align: center;
-  justify-content: center;
-}
-
-.img {
-  flex: 0 32%;
-  margin-right: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.step-text {
-  flex: 100%;  
-}
-
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-    /* this will be applied on any screen smaller than 575px */
-
-    .hero-form button {
-      width: 100%;
-    }
-  
-    .section-title {
-      width: 95%;
-    }
-  
-    .intro p {
-      width: 100%;
-    }
-  
-    .trainer {
-      flex: 0 100%;
-    }
-  
-    .contact-info {
+  }
+  .flex-line-3 {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
       text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
+  }
 
-    .contact-form {
-      order: 3;
-    }
+  .flex-line-4 {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      text-align: center;
+  }
+  }
  
-}
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
